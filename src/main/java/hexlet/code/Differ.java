@@ -29,7 +29,6 @@ public class Differ {
                     break;
                 default:
                     throw new IllegalStateException("Unexpected value: " + value.getState());
-
             }
         }
         var resultString = new StringBuilder("{\n");
